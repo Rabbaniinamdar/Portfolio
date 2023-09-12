@@ -102,7 +102,7 @@ header {
   z-index: 1000;
   height: 100%;
   width: 35rem;
-  background: rgba(50, 161, 171, 0.86);
+  background: rgb(186, 125, 186);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,7 +169,7 @@ header .navbar ul li a:hover {
 .link:hover {
   color: rgb(255, 0, 85);
 }
-#menu {
+#menu_bar {
   position: fixed;
   top: 2rem;
   right: 2rem;
@@ -259,6 +259,89 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #eeeeee;
 }
+
+.education .skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+
+.education .skills .box {
+  width: 26rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: 0.2rem solid #000000;
+  position: relative;
+}
+
+.education .skills .box span {
+  font-size: 1.3rem;
+  background: #001139;
+  color: #ffffff;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.education .skills .box h3 {
+  font-size: 2rem;
+  color: #000000;
+  padding-top: 1.5rem;
+  color: var(--yellow);
+}
+
+.education .skills .box p {
+  font-size: 1.6rem;
+  color: #000000;
+  padding: 1rem 0;
+  line-height: 2.3rem;
+}
+
+.education .skills .box i {
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  background: rgb(179, 1, 179);
+}
+
+.portfolio .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.portfolio .skills .box {
+  height: 13rem;
+  width: 12rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio .skills .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 1 px solid black;
+  border-radius: 15px;
+}
+
+.portfolio .skills .box:hover img {
+  transform: scale(1.2);
+}
+
 
 .education .box-container {
   display: flex;
@@ -468,7 +551,7 @@ iframe {
     left: -120%;
   }
 
-  #menu {
+  #menu_bar {
     display: block;
     background-color: rgb(197, 0, 197);
   }
@@ -502,7 +585,7 @@ iframe {
 
 @media (max-width: 400px) {
   .typed {
-    font-size: 28px;
+    font-size: 25px;
   }
   header {
     width: 100vw;
@@ -594,7 +677,7 @@ iframe {
   position: relative;
 }
 .wrapper i {
-  top:40%;
+  top: 40%;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -671,7 +754,7 @@ iframe {
   font-weight: 500;
   font-size: 1.56rem;
   text-align: center;
-  color:purple;
+  color: purple;
   margin: 30px 10px 5px;
 }
 .carousel .card span {
@@ -734,5 +817,4 @@ iframe {
   #button {
     margin: 30px;
   }
-  
 }
