@@ -10,14 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/aja   x/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <!-- Bootstrap Icons CSS (Ensure you have the correct path to the CSS file) -->
+    <link rel="stylesheet" href="path/to/bootstrap-icons.css">
+</head>
+<!-- custom css file link  -->
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 
 </head>
 
@@ -44,17 +49,19 @@
         <nav class="navbar">
             <ul>
                 <a href=""></a>
-                <li><a target="_blank" href="mailto:mdrabbani8229@gmail.com"><i class="fas fa-envelope"></i> <span
-                            class="mail"> mdrabbani8229@gmail.com
+                <li><a target="_blank" href="mailto:mdrabbani8229@gmail.com"><i class="fas fa-envelope"
+                            style="color: rgb(186, 186, 186);"></i> <span class="mail"> mdrabbani8229@gmail.com
                         </span></a></li>
                 <li><a href="https://www.linkedin.com/in/mahmmed-rabbani-087169190" target="_blank"><i
-                            class="fa fa-linkedin-square" style="font-size:25px;"></i>&ThickSpace;LinkedIn</a>
+                            class="fa fa-linkedin-square"
+                            style="font-size:25px; color: rgb(12, 78, 143);"></i>&ThickSpace;LinkedIn</a>
                 </li>
                 <li><a href="https://github.com/Rabbaniinamdar" target="_blank"><i
                             style="color:rgb(0, 0, 0); font-size: 25px;"
                             class="fa fa-github-square"></i>&ThickSpace;<span>GitHub</span></a>
                 </li>
-                <li><a><i class="fas fa-phone-square"></i><span></span> 7760375574 </li></a>
+                <li><a><i class="fas fa-phone-square" style="color: rgb(0, 118, 0);"></i><span></span> 7760375574 </li>
+                </a>
                 <li><a><span> DOB: </span>18/11/2001</a>
                 <li><a><span> age : </span> 21 </a></li>
                 <li><a> <i class="fas fa-map-marker-alt"></i> Banaglore, Karnataka</li></a>
@@ -69,8 +76,7 @@
     </div> -->
     <!-- header section ends -->
 
-    <div id="menu" class="fas fa-bars fa-times"></div>
-
+    <div id="menu_bar" class="fas fa-bars fa-times"></div>
     <!-- home section starts  -->
 
     <section class="home" id="home">
@@ -86,7 +92,7 @@
             resourceful working to achieve the corporation success,as well as the success for myself
             as a valuable representative.
         </p>
-        <a href="images/Resume.pdf" target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i>
+        <a href="images/Resume.pdf" target="_blank"><button class="btn"> Resume <i class="fas fa-download"></i>
             </button></a>
     </section>
 
@@ -120,6 +126,51 @@
 
     <!-- about section ends -->
 
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> my <span>Skills</span> </h1>
+
+        <div class="skills">
+            <div class="box">
+                <img src="images/java.png" alt="">
+            </div>
+            <div class="box">
+                <img src="images/html.png" alt="">
+
+            </div>
+            <div class="box">
+                <img src="images/css.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/bootsrap.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/javascript.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/reactjs.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/node.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/expressjs.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/mysql.png" alt="">
+            </div>
+            
+            <div class="box">
+                <img src="images/github_logo.png" alt="">
+            </div>
+        </div>
+
+    </section>
     <!-- education section starts  -->
 
     <section class="education" id="education">
@@ -185,10 +236,12 @@
                         alt=""></a>
             </div>
             <div class="box">
-                <a href="#" target="_blank"> <img src="./images/project6.png" alt=""></a>
+                <a href="https://github.com/Rabbaniinamdar/NewsMonkey.git" target="_blank"> <img
+                        src="./images/project6.png" alt=""></a>
             </div>
             <div class="box">
-                <a href="#" target="_blank"> <img src="./images/project2.png" alt=""></a>
+                <a href="https://www.davidchuschinabistro.com/" target="_blank"> <img src="./images/project2.png"
+                        alt=""></a>
             </div>
         </div>
 
@@ -248,7 +301,7 @@
 
         <div class="card-container">
             <div class="wrapper">
-                <i id="left" class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-left"></i>
                 <ul class="carousel">
                     <li class="card">
                         <div class="img"><img src="images/Html_css_js.png" alt="img" draggable="false"></div>
@@ -325,7 +378,7 @@
                 <div class="google-map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12389.500709373471!2d77.59586172177163!3d12.91114213712983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1690190191909!5m2!1sen!2sin"
-                        width="320" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
